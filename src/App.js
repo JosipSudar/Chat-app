@@ -3,7 +3,7 @@ import { ChatEngine } from "react-chat-engine";
 import ChatFeed from "./components/ChatFeed";
 import LoginForm from "./components/LoginForm";
 
-const projectID = "1b5bfee2-3b84-436b-ae42-aea9030956bc";
+const projectID = "<your project ID>";
 
 function App() {
   if (!localStorage.getItem("username")) return <LoginForm />;
